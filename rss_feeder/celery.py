@@ -18,7 +18,7 @@ app.conf.beat_schedule = {
     
     'send-notification': {
         'task': 'api.tasks.send_notification',
-        'schedule':  timedelta(minutes=1),
+        'schedule':  timedelta(minutes=60),
        
     }
     
